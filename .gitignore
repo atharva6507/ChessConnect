@@ -1,0 +1,13 @@
+# Node dependencies
+node_modules/
+
+# Environment files
+.env
+
+# OS / Editor files
+.DS_Store
+.vscode/
+
+# Ignore setup YAMLs
+backendSetup.yaml
+frontendSetup.yaml

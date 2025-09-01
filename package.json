@@ -1,0 +1,22 @@
+{
+  "name": "chesscom-clone",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
