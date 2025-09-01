@@ -2,6 +2,10 @@
 
 A real-time multiplayer chess game built with Node.js, Express, and Socket.IO.
 
+## 🌐 Live Demo
+
+Play the game online: [https://chessconnect.onrender.com](https://chessconnect.onrender.com)
+
 ## 🚀 How to Play
 
 1. **Start the Game**
