@@ -21,17 +21,23 @@ A real-time multiplayer chess game built with Node.js, Express, and Socket.IO.
 
 ## 🛠️ Setup
 
-1. Install dependencies:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/atharva6507/ChessConnect.git
+   cd ChessConnect
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the server:
+3. Start the server:
    ```bash
    npm run dev
    ```
 
-3. Open your browser and navigate to:
+4. Open your browser and navigate to:
    ```
    http://localhost:3000
    ```
