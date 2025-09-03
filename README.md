@@ -114,8 +114,3 @@ This document describes the room implementation and overall runtime flow for the
 - `views/index.ejs` — ROOM_ID injection and lobby/game DOM.
 - `public/js/chessgame.js` — UI, join/create flows, socket events and move emission.
 - `public/css/chessgame.css` — board styling.
-
-If you want, I can:
-- commit this README into the workspace,
-- or produce a compact diagram (ASCII) of the socket sequence.
-Which would you prefer?
