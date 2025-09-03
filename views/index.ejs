@@ -1,24 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chess Game</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title><%= title %></title>
   <link rel="stylesheet" href="/css/chessgame.css">
-  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body>
+  <div id="lobby" class="lobby">
+    <button id="createBtn">Create Room</button>
+    <input id="joinInput" placeholder="Room code" />
+    <button id="joinBtn">Join Room</button>
+    <div id="roomLink"></div>
+  </div>
 
-<body class="bg-zinc-900">
-  <div class="w-full h-screen flex items-center justify-center">
+  <div id="gameArea" class="hidden">
+    <div id="status"></div>
     <div class="chessboard"></div>
   </div>
 
-  <script src="https://cdn.socket.io/4.8.1/socket.io.min.js"
-    integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.11.0/chess.min.js">
+  <script>
+    window.ROOM_ID = "<%= roomId ? roomId : '' %>";
   </script>
-  <script src="/js/chessgame.js">
-  </script>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.11.0/chess.min.js"></script>
+  <script src="/js/chessgame.js"></script>
 </body>
 </html>
