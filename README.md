@@ -1,4 +1,4 @@
-# Chesscom Clone — Rooms & Flow
+# chessconnect — Rooms & Flow
 
 This document describes the room implementation and overall runtime flow for the Chesscom Clone project (server, client, sockets). Use it as the single-source guide for how rooms are created, joined, how game state is managed, and where to find the relevant code.
 
